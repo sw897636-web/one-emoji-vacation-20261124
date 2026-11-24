@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const EMOJI = "🏔"; // U+1F3D4 SNOW-CAPPED MOUNTAIN — a single code point.
+const EMOJI = "🏝️"; // U+1F3DD DESERT ISLAND + U+FE0F — two code points.
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
